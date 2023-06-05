@@ -262,7 +262,6 @@ require([
     const radio_dos = document.getElementById('dos'); 
     const radio_tres = document.getElementById('tres'); 
     const radio_cuatro = document.getElementById('cuatro');
-    const radio_cinco = document.getElementById('cinco');
 
     const options = document.getElementsByClassName("radio-item");
     for (let i = 0; i < options.length; i++) {
@@ -274,7 +273,6 @@ require([
             radio_dos.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_tres.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_cuatro.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
-            radio_cinco.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             giraldaLayer.renderer = {
               type: "simple",
               symbol: {
@@ -293,7 +291,6 @@ require([
             radio_dos.style.boxShadow = "0 0 0 8px rgba(0, 0, 0, 0.4)";
             radio_tres.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_cuatro.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
-            radio_cinco.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             giraldaLayer.renderer = {
               type: "simple",
               symbol: {
@@ -319,7 +316,6 @@ require([
             radio_dos.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_tres.style.boxShadow = "0 0 0 8px rgba(0, 0, 0, 0.4)";
             radio_cuatro.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
-            radio_cinco.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             giraldaLayer.renderer = {
               type: "simple",
               symbol: {
@@ -345,7 +341,6 @@ require([
             radio_dos.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_tres.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             radio_cuatro.style.boxShadow = "0 0 0 8px rgba(0, 0, 0, 0.4)";
-            radio_cinco.style.boxShadow = "0 0 0 4px rgba(0, 0, 0, 0.4)";
             giraldaLayer.renderer = {
               type: "simple",
               symbol: {
