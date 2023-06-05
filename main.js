@@ -82,26 +82,26 @@ require([
       },
       pointsPerInch: 30,
 
-      stops: [{
-        value: -0.78,
+      stops:  [{
+        value: 15,
         color: [61, 51, 158]
       }, {
-        value: 1,
+        value: 30,
         color: [73, 196, 196]
       }, {
-        value: 10,
+        value: 45,
         color: [104, 196, 73]
       }, {
-        value: 20,
+        value: 60,
         color: [235, 232, 84]
       }, {
-        value: 40,
+        value: 75,
         color: [235, 162, 84]
       }, {
-        value: 80,
+        value: 90,
         color: [235, 84, 84]
       }, {
-        value: 100,
+        value: 105,
         color: [100, 100, 100]
       }]
     })
