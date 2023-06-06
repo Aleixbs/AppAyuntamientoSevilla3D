@@ -129,7 +129,10 @@ require([
     })
 
     calificacionSueloFL = new FeatureLayer({
-      url: "https://services1.arcgis.com/hcmP7kr0Cx3AcTJk/arcgis/rest/services/Info_Urban/FeatureServer/34?"
+      url: "https://services1.arcgis.com/hcmP7kr0Cx3AcTJk/arcgis/rest/services/Info_Urban/FeatureServer/34?", 
+      maxScale: 0, 
+      minScale: 0, 
+      popupEnabled: true
     })
 
 
